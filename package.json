@@ -4,7 +4,7 @@
   "description": "Library that supports constructing CLIs with nested command structures",
   "main": "index.js",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.3.0"
   },
   "devDependencies": {
     "standard": "^14.0.2"
