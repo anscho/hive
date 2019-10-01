@@ -1,6 +1,6 @@
 {
   "name": "@anscho/hive",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Library that supports constructing CLIs with nested command structures",
   "main": "index.js",
   "dependencies": {

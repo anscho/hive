@@ -11,6 +11,6 @@ module.exports = new BasicCommand({
   description: 'Prints the license for this library',
   run: _ => {
     const license = fs.readFileSync(path.resolve(__dirname, '../LICENSE.txt'))
-    console.log(JSON.stringify(license))
+    console.log(license.toString())
   }
 })
