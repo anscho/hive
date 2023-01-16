@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["es2022"],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "outDir": "build",
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "es2022"
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

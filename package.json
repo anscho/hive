@@ -1,20 +1,25 @@
 {
   "name": "@anscho/hive",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Library that supports constructing CLIs with nested command structures",
   "main": "index.js",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.7"
   },
   "devDependencies": {
-    "standard": "^14.0.2"
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.11.18",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
   },
   "repository": {},
   "scripts": {
     "fix": "./node_modules/.bin/standard --fix",
     "lint": "./node_modules/.bin/standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testTypes": "npm ci && ./node_modules/typescript/bin/tsc"
   },
+  "types": "index.d.ts",
   "author": "Andrew Schoenfeld",
   "license": "MIT",
   "keywords": [

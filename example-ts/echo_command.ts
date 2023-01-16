@@ -1,13 +1,8 @@
-const {
-  BasicCommand,
-  utilities
-} = require('../index')
+import { BasicCommand, utilities } from '..'
 
-const {
-  isHelp
-} = utilities
+const { isHelp } = utilities
 
-module.exports = new BasicCommand({
+export const echoCommand = new BasicCommand({
   name: 'echo',
   options: '<text> [-t --times]',
   description: 'Echoes back what you send',
